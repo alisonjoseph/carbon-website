@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { defaultColors } from '@carbon/charts';
-import { BarChart, DonutChart } from '@carbon/charts-react';
+import { BarChart } from '@carbon/charts-react';
 import { Button } from 'carbon-components-react';
 import '@carbon/charts/style.css';
 

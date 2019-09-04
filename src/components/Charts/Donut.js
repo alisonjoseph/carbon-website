@@ -1,20 +1,11 @@
 import React, { Component } from 'react';
-import { defaultColors } from '@carbon/charts';
 import { DonutChart } from '@carbon/charts-react';
+import { DonutCenter } from '@carbon/charts';
 import '@carbon/charts/style.css';
 
-const demoDonutOptions = {
-  accessibility: false,
-  legendClickable: true,
-  containerResizable: true,
-  colors,
-  center: new DonutCenter({
-    number: 25423,
-    label: 'Browsers',
-  }),
-};
+const colors = ['#00a68f', '#3b1a40', '#473793', '#3c6df0', '#56D2BB'];
 
-const demoData = {
+const donutData = {
   labels: [
     '2V2N-9KYPM version 1',
     'L22I-P66EP-L22I-P66EP-L22I-P66EP',
@@ -47,13 +38,30 @@ const demoData = {
   ],
 };
 
+const donutOptions = {
+  accessibility: false,
+  legendClickable: true,
+  containerResizable: true,
+  colors,
+  center: new DonutCenter({
+    number: 25423,
+    label: 'Browsers',
+  }),
+};
+
 class Donut extends Component {
   render() {
     return (
       <>
-        <DonutChart data={demoData} options={demoDonutOptions} />
+        <DonutChart
+          data={donutData}
+          options={donutOptions}
+          width="100%"
+          height={400}
+        />
       </>
     );
   }
 }
+
 export default Donut;

@@ -770,7 +770,7 @@
   dependencies:
     "@carbon/charts" "^0.15.7"
 
-"@carbon/charts@^0.15.8":
+"@carbon/charts@^0.15.7":
   version "0.15.7"
   resolved "https://registry.yarnpkg.com/@carbon/charts/-/charts-0.15.8.tgz#795a0386b3c64379f3f8ba9b82415c213ae8a26f"
   integrity sha512-HbV+vq2OuYRCoLSLlwIx8DMFe2tf7dqJlBdEKNcgcYPNSHQR5dxf9nQCrqlF7IuPadbnKapMsPxiuxtYMTXtVQ==
