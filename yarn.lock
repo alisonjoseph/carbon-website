@@ -2426,11 +2426,6 @@
   resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.43.1.tgz#57e1077601ae121f60d0e52ed238fea79b4a8385"
   integrity sha512-1f2qKDi7Kg/aH3WWZNUAtDaab0SsfpM9UJgU9fezeELM2hXkOaLp0uXu9+4cvil2x9/L08IG525TQnls2gFv+A==
 
-"@carbon/icon-helpers@^10.44.0-rc.0":
-  version "10.44.0-rc.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.44.0-rc.0.tgz#5849a0ed74fc17ebc57f340b7f0fc4d0b9564cda"
-  integrity sha512-lal9OJnE6FGP/wzaWMKPE3yEkL0L1yJqhdSCDPbfOxNktS9mJlo8IbCbV7Y4JSL29UB+XClStROCL0mdfj6f6A==
-
 "@carbon/icons-react@^10.32.0":
   version "10.42.0"
   resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.42.0.tgz#2402a350514c0a1c33b575922b49b235a20a6330"
@@ -2446,15 +2441,6 @@
   integrity sha512-SGpad7MbDmqjZWCJ37cLxGonVEBFIXTlhTCxYrfPC5NjlqToNrzbngsxHi3hTI1IkQ5HDD2qgHC/MENDbpk83g==
   dependencies:
     "@carbon/icon-helpers" "^10.43.1"
-    "@carbon/telemetry" "0.1.0"
-    prop-types "^15.7.2"
-
-"@carbon/icons-react@^11.24.0-rc.0":
-  version "11.24.0-rc.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-11.24.0-rc.0.tgz#242b7fe066e560955d49a5bb5f6dc146faf3077d"
-  integrity sha512-OvVhrBK5fxif7zpVTnOnYBB3br3KudaOCCqfrpANMOSW25+IXzuAcZuqRyNaHSrFwD4q8bn4eENPtAnvpDQLSg==
-  dependencies:
-    "@carbon/icon-helpers" "^10.44.0-rc.0"
     "@carbon/telemetry" "0.1.0"
     prop-types "^15.7.2"
 
@@ -2492,10 +2478,10 @@
     "@carbon/telemetry" "0.1.0"
     prop-types "^15.7.2"
 
-"@carbon/pictograms@^12.21.0-rc.0":
-  version "12.21.0-rc.0"
-  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-12.21.0-rc.0.tgz#19bffa9c28544bc2efb15bb94e5c8614d5b272d1"
-  integrity sha512-gdEUCB1NlrgabIDONe0W9rMZIrYehpTDu/QaNleBtxCxUcR7ELf9vQ3+RdK/kp6q/HLeWp/VeXN7VyYcFbiN7Q==
+"@carbon/pictograms@^12.20.0":
+  version "12.20.1"
+  resolved "https://registry.yarnpkg.com/@carbon/pictograms/-/pictograms-12.20.1.tgz#5b9fb33f1510b7efc3d2d367f8d06aacfac4d497"
+  integrity sha512-GgrIkCbWwe7SDmxdSZi2W0VlFPS7UBCcBx16ZH0lfY89Ue1cRHa4/qNkBX0kyFPXk1DRjdtw5gHkDSes6/csnA==
 
 "@carbon/react@1.34.0", "@carbon/react@^1.34.0":
   version "1.34.0"
